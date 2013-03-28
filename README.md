@@ -424,4 +424,29 @@ addWishlistLink: <action method="addWishlistLink"></action>
 addBodyClass:  <action method="addBodyClass"><className>account</className></action>
 ```
 
+Block Types
+==============================
 
+```xml
+core/template: This block renders a template defined by its template attribute. The majority of blocks defined in the layout are of type or subtype of core/template.
+
+page/html: This is a subtype of core/template and defines the root block. All other blocks are child blocks of this block.
+
+page/html_head: Defines the HTML head section of the page which contains elements for including JavaScript, CSS etc.
+
+page/html_header: Defines the header part of the page which contains the site logo, top links, etc.
+
+page/template_links: This block is used to create a list of links. Links visible in the footer and header area use this block type.
+
+core/text_list: Some blocks like content, left, right etc. are of type core/text_list. When these blocks are rendered, all their child blocks are rendered automatically without the need to call thegetChildHtml() method.
+
+page/html_wrapper: This block is used to create a wrapper block which renders its child blocks inside an HTML tag set by the action setHtmlTagName. The default tag is <div> if no element is set.
+
+page/html_breadcrumbs: This block defines breadcrumbs on the page.
+
+page/html_footer: Defines footer area of page which contains footer links, copyright message etc.
+
+core/messages: This block renders error/success/notice messages.
+
+page/switch: This block can be used for the language or store switcher.
+```
