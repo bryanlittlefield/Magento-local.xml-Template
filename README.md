@@ -319,3 +319,107 @@ tag_list_index
 
 wishlist_index_index
 ```
+
+
+Available Attributes
+==============================
+
+```xml
+addPriceBlockType:   <action method="addPriceBlockType"><type>bundle</type><block>bundle/catalog_product_price</block><template>bundle/catalog/product/price.phtml</template></action>
+
+addItemRender:   <action method="addItemRender"><type>bundle</type><block>
+bundle/checkout_cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
+
+addItem: <action method="addItem"><type>skin_js</type><name>js/bundle.js</name></action>
+insert: <action method=”insert”><block>product.info.bundle.options</block></action>
+
+setItemLimit: <action method="setItemLimit"><type>bundle</type><limit>4</limit></action>
+
+setImgSrc: <action method=”setImgSrc”><src>images/media/col_left_callout.jpg</src></action>
+
+setImgAlt: <action method=”setImgAlt” translate=”alt” module=”catalog”><alt>Our customer service is available 24/7. Call us at (800) DEMO-NUMBER.</alt></action>
+
+setLinkUrl: <action method=”setLinkUrl”><url>checkout/cart</url></action>
+
+addLink:   <action method=”addLink” translate=”label title” module=”catalog” ifconfig=”catalog/seo/site_map”><label>Site Map</label><url helper=”catalog/map/getCategoryUrl” /><title>Site Map</title></action>
+
+setDefaultListPerPage: <action method=”setDefaultListPerPage”><limit>4</limit></action>
+
+setDefaultGridPerPage: <action method=”setDefaultGridPerPage”><limit>9</limit></action>
+
+addPagerLimit: <action method=”addPagerLimit”><mode>list</mode><limit>6</limit></action>
+
+setToolbarBlockName: <action method=”setToolbarBlockName”><name>product_list_toolbar</name></action>
+
+addReviewSummaryTemplate: <action method=”addReviewSummaryTemplate”><type>default</type><template>review/helper/su.phtml</template></action>
+
+setTemplate: <action method=”setTemplate”><template>page/one-column.phtml</template></action>
+
+addJs: <action method=”addJs”><script>scriptaculous/scriptaculous.js</script></action>
+
+unsetChild: <action method=”unsetChild”><name>catalog_compare_sidebar</name></action>
+
+setTierPriceTemplate: <action method=”setTierPriceTemplate”><template>catalog/product/view/tierprices.phtml</template></action>
+
+setColumnCount: <action method=”setColumnCount”><columns>4</columns></action>
+
+setItemLimit: <action method=”setItemLimit”><type>upsell</type><limit>4</limit></action>
+
+addOptionRenderer: <action method=”addOptionRenderer”><type>text</type><block>catalog/product_view_options_type_text</block><template>catalog/product/view/options/type/text.phtml</template></action>
+
+insert: <action method=”insert”><block>product.tierprices</block></action>
+
+append: <action method=”append”><block>product.info.addtocart</block></action>
+
+setDataByKey: <action method=”setDataByKey”><key>alias_in_layout</key><value>container2</value></action>
+
+setDataByKeyFromRegistry: <action method=”setDataByKeyFromRegistry”><key>options_container</key><key_in_registry>product</key_in_registry></action>
+
+unsetCallChild: <action method=”unsetCallChild”><child>container1</child><call>ifEquals</call><if>0</if><key>alias_in_layout</key><key>options_container</key></action>
+
+setTitle: <action method=”setTitle” translate=”title” module=”catalog”><title>Categories</title></action>
+
+bindPager: <action method=”bindPager”><pager>seo.sitemap.pager.top</pager></action>
+
+setItemsTitle: <action method=”setItemsTitle” translate=”title” module=”catalog”><title>categories</title></action>
+
+setListOrders: <action method=”setListOrders”/>
+
+setListModes: <action method=”setListModes”/>
+
+setListCollection: <action method=”setListCollection”/>
+
+addCartLink: <action method=”addCartLink”></action>
+
+addCheckoutLink: <action method=”addCheckoutLink”></action>
+
+setCartTemplate: <action method=”setCartTemplate”><value>checkout/cart.phtml</value></action>
+
+setEmptyTemplate: <action method=”setEmptyTemplate”><value>checkout/cart/noItems.phtml</value></action>
+
+chooseTemplate: <action method=”chooseTemplate”/>
+
+setMethodFormTemplate: <action method=”setMethodFormTemplate”><method>purchaseorder</method><template>payment/form/purchaseorder.phtml</template></action>
+
+setInfoTemplate: <action method=”setInfoTemplate”><method></method><template></template></action>
+
+setDontDisplayContainer: <action method=”setDontDisplayContainer”><param>1</param></action>
+
+setBlockId: <action method=”setBlockId”><block_id>footer_links</block_id></action>
+
+setHeaderTitle: <action method=”setHeaderTitle” translate=”title” module=”contacts”><title>Contact Us</title></action>
+
+setSaveMode: <action method=”setSaveMode”><mode>save</mode></action>
+
+setGoogleCheckout: <action method=”setGoogleCheckout”><flag>true</flag></action>
+
+setScriptType: <action method=”setScriptType”><scriptType>control_script</scriptType></action>
+
+addCss: <action method=”addCss”><stylesheet>css/reset.css</stylesheet></action>
+
+setPollTemplate: <action method=”setPollTemplate”><template>poll/active.phtml</template><type>poll</type></action>
+
+addWishlistLink: <action method=”addWishlistLink”></action>
+```
+
+
