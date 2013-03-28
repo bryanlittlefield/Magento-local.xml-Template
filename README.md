@@ -4,7 +4,7 @@ Magento-local.xml-Template
 A great Start for your next Magento Theme's local.xml file
 
 
-```
+```xml
 <?xml version="1.0"?>
 <layout>
   
@@ -231,7 +231,7 @@ Customer Logged Out
 Available layout xml handles
 ==============================
 
-```
+```xml
 default
 catalog_category_default    (* also used in directory.xml)
 catalog_category_layered    (* also used in directory.xml)
