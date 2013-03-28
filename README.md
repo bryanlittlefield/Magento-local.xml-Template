@@ -420,6 +420,8 @@ addCss: <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
 setPollTemplate: <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
 
 addWishlistLink: <action method="addWishlistLink"></action>
+
+addBodyClass:  <action method="addBodyClass"><className>account</className></action>
 ```
 
 
