@@ -1,8 +1,7 @@
 Magento-local.xml-Template
 ==========================
 
-A Great Start for your next Magento Theme's local.xml file
-
+A Great Start for your next Magento Theme's local.xml file -
 
 ```xml
 <?xml version="1.0"?>
