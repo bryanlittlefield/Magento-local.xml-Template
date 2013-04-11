@@ -102,7 +102,7 @@ CMS Homepage
       <!-- Insert Code Here -->
     </reference>
 
-  <cms_index_index>
+  </cms_index_index>
 
 
 
