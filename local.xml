@@ -7,7 +7,7 @@ Add/Remove Items From Head
   <default translate="label" module="page">
     <reference name="head">
       <!-- Add Javascript File -->
-      <action method="addJs"><script>jquery/jquery.js</script></action>
+      <action method="addItem"><type>skin_js</type><name>js/jquery.js</name><params/></action>
       <!-- Add CSS File -->
       <action method="addCss"><stylesheet>css/local.css</stylesheet></action>
     </reference>
