@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <layout>
-  
+
 <!--
 Add/Remove Items From Head
 -->
@@ -96,7 +96,7 @@ CMS Homepage
       <!-- Insert Code Here -->
     </reference>
 
-  <cms_index_index>
+  </cms_index_index>
 
 
 
