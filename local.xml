@@ -150,11 +150,18 @@ Cart Template
   </checkout_cart_index>
 
 <!--
-Checkout Layout
+OnePage  Layout
 -->
   <checkout_onepage_index>
    <!-- Insert Code Here -->
   </checkout_onepage_index>
+
+<!--
+OnePage Success Layout
+-->
+  <checkout_onepage_success>
+  <!-- Insert Code Here -->
+  </checkout_onepage_success>
 
 <!--
 Contact Page Template
