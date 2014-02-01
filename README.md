@@ -23,6 +23,13 @@ Add/Remove Items From Head
 Default layout, loads most of the pages
 -->
   <default>
+  
+    <!-- Add Custom Block 
+    <reference name="root">
+      <block type="core/template" before="-" name="my_block" as="my_block" template="path/to/file.phtml"/>
+    </reference>
+    -->
+    
     <!-- Header -->
     <reference name="header">
       <!-- Insert Code Here -->
